@@ -568,4 +568,5 @@ DISCLAIMER:
             st.session_state.messages.append({"role": "assistant", "content": full_response})
             
             # Force a rerun to properly display the updated chat history
+
             st.rerun() 
